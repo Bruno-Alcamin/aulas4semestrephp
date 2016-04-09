@@ -1,0 +1,944 @@
+[11-Feb-2016 16:49:50 UTC] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home/ubuntu/workspace/Aula 2/aula2.php on line 4
+[12-Feb-2016 20:35:27 UTC] PHP Warning:  Missing argument 1 for preenche(), called in /home/ubuntu/workspace/Aula 2/calc.php on line 54 and defined in /home/ubuntu/workspace/Aula 2/calc.php on line 51
+[12-Feb-2016 20:35:27 UTC] PHP Stack trace:
+[12-Feb-2016 20:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 2/calc.php:0
+[12-Feb-2016 20:35:27 UTC] PHP   2. preenche($x = *uninitialized*) /home/ubuntu/workspace/Aula 2/calc.php:54
+[13-Feb-2016 02:00:19 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/Aula 2/calc.php on line 42
+[13-Feb-2016 02:00:19 UTC] PHP Stack trace:
+[13-Feb-2016 02:00:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 2/calc.php:0
+[13-Feb-2016 02:00:19 UTC] PHP   2. Calculadora->div() /home/ubuntu/workspace/Aula 2/calc.php:65
+[13-Feb-2016 02:00:52 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/Aula 2/calc.php on line 42
+[13-Feb-2016 02:00:52 UTC] PHP Stack trace:
+[13-Feb-2016 02:00:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 2/calc.php:0
+[13-Feb-2016 02:00:52 UTC] PHP   2. Calculadora->div() /home/ubuntu/workspace/Aula 2/calc.php:65
+[18-Feb-2016 16:06:36 UTC] PHP Warning:  Missing argument 1 for Calculadora::__construct(), called in /home/ubuntu/workspace/Aula 3/cal.php on line 15 and defined in /home/ubuntu/workspace/Aula 3/cal.php on line 5
+[18-Feb-2016 16:06:36 UTC] PHP Stack trace:
+[18-Feb-2016 16:06:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/cal.php:0
+[18-Feb-2016 16:06:36 UTC] PHP   2. Calculadora->__construct($n1 = *uninitialized*, $n2 = *uninitialized*) /home/ubuntu/workspace/Aula 3/cal.php:15
+[18-Feb-2016 16:06:36 UTC] PHP Warning:  Missing argument 2 for Calculadora::__construct(), called in /home/ubuntu/workspace/Aula 3/cal.php on line 15 and defined in /home/ubuntu/workspace/Aula 3/cal.php on line 5
+[18-Feb-2016 16:06:36 UTC] PHP Stack trace:
+[18-Feb-2016 16:06:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/cal.php:0
+[18-Feb-2016 16:06:36 UTC] PHP   2. Calculadora->__construct($n1 = *uninitialized*, $n2 = *uninitialized*) /home/ubuntu/workspace/Aula 3/cal.php:15
+[18-Feb-2016 16:06:36 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/Aula 3/cal.php on line 16
+[18-Feb-2016 16:06:36 UTC] PHP Stack trace:
+[18-Feb-2016 16:06:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/cal.php:0
+[18-Feb-2016 16:07:15 UTC] PHP Warning:  Missing argument 1 for Calculadora::__construct(), called in /home/ubuntu/workspace/Aula 3/cal.php on line 15 and defined in /home/ubuntu/workspace/Aula 3/cal.php on line 5
+[18-Feb-2016 16:07:15 UTC] PHP Stack trace:
+[18-Feb-2016 16:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/cal.php:0
+[18-Feb-2016 16:07:15 UTC] PHP   2. Calculadora->__construct($n1 = *uninitialized*, $n2 = *uninitialized*) /home/ubuntu/workspace/Aula 3/cal.php:15
+[18-Feb-2016 16:07:15 UTC] PHP Warning:  Missing argument 2 for Calculadora::__construct(), called in /home/ubuntu/workspace/Aula 3/cal.php on line 15 and defined in /home/ubuntu/workspace/Aula 3/cal.php on line 5
+[18-Feb-2016 16:07:15 UTC] PHP Stack trace:
+[18-Feb-2016 16:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/cal.php:0
+[18-Feb-2016 16:07:15 UTC] PHP   2. Calculadora->__construct($n1 = *uninitialized*, $n2 = *uninitialized*) /home/ubuntu/workspace/Aula 3/cal.php:15
+[18-Feb-2016 16:08:06 UTC] PHP Warning:  Missing argument 1 for Calculadora::__construct(), called in /home/ubuntu/workspace/Aula 3/cal.php on line 15 and defined in /home/ubuntu/workspace/Aula 3/cal.php on line 5
+[18-Feb-2016 16:08:07 UTC] PHP Stack trace:
+[18-Feb-2016 16:08:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/cal.php:0
+[18-Feb-2016 16:08:07 UTC] PHP   2. Calculadora->__construct($n1 = *uninitialized*, $n2 = *uninitialized*) /home/ubuntu/workspace/Aula 3/cal.php:15
+[18-Feb-2016 16:08:07 UTC] PHP Warning:  Missing argument 2 for Calculadora::__construct(), called in /home/ubuntu/workspace/Aula 3/cal.php on line 15 and defined in /home/ubuntu/workspace/Aula 3/cal.php on line 5
+[18-Feb-2016 16:08:07 UTC] PHP Stack trace:
+[18-Feb-2016 16:08:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/cal.php:0
+[18-Feb-2016 16:08:07 UTC] PHP   2. Calculadora->__construct($n1 = *uninitialized*, $n2 = *uninitialized*) /home/ubuntu/workspace/Aula 3/cal.php:15
+[18-Feb-2016 16:29:10 UTC] PHP Fatal error:  Call to undefined method Ameba::clone() in /home/ubuntu/workspace/Aula 3/ameba.php on line 18
+[18-Feb-2016 16:29:10 UTC] PHP Stack trace:
+[18-Feb-2016 16:29:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 16:30:20 UTC] PHP Fatal error:  Call to undefined method Ameba::clone() in /home/ubuntu/workspace/Aula 3/ameba.php on line 18
+[18-Feb-2016 16:30:20 UTC] PHP Stack trace:
+[18-Feb-2016 16:30:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 16:30:35 UTC] PHP Fatal error:  Call to undefined method Ameba::clone() in /home/ubuntu/workspace/Aula 3/ameba.php on line 18
+[18-Feb-2016 16:30:35 UTC] PHP Stack trace:
+[18-Feb-2016 16:30:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:00:18 UTC] PHP Catchable fatal error:  Object of class Ameba could not be converted to string in /home/ubuntu/workspace/Aula 3/ameba.php on line 18
+[18-Feb-2016 17:00:18 UTC] PHP Stack trace:
+[18-Feb-2016 17:00:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:01:01 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/ubuntu/workspace/Aula 3/ameba.php on line 18
+[18-Feb-2016 17:01:01 UTC] PHP Stack trace:
+[18-Feb-2016 17:01:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:01:57 UTC] PHP Catchable fatal error:  Object of class Ameba could not be converted to string in /home/ubuntu/workspace/Aula 3/ameba.php on line 18
+[18-Feb-2016 17:01:57 UTC] PHP Stack trace:
+[18-Feb-2016 17:01:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:02:20 UTC] PHP Fatal error:  Call to a member function mostraNome() on a non-object in /home/ubuntu/workspace/Aula 3/ameba.php on line 19
+[18-Feb-2016 17:02:20 UTC] PHP Stack trace:
+[18-Feb-2016 17:02:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:03:07 UTC] PHP Catchable fatal error:  Object of class Ameba could not be converted to string in /home/ubuntu/workspace/Aula 3/ameba.php on line 18
+[18-Feb-2016 17:03:07 UTC] PHP Stack trace:
+[18-Feb-2016 17:03:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:03:32 UTC] PHP Catchable fatal error:  Object of class Ameba could not be converted to string in /home/ubuntu/workspace/Aula 3/ameba.php on line 18
+[18-Feb-2016 17:03:32 UTC] PHP Stack trace:
+[18-Feb-2016 17:03:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:04:02 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/ubuntu/workspace/Aula 3/ameba.php on line 11
+[18-Feb-2016 17:04:02 UTC] PHP Stack trace:
+[18-Feb-2016 17:04:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:04:02 UTC] PHP   2. Ameba->clona() /home/ubuntu/workspace/Aula 3/ameba.php:18
+[18-Feb-2016 17:04:28 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/ubuntu/workspace/Aula 3/ameba.php on line 18
+[18-Feb-2016 17:04:28 UTC] PHP Stack trace:
+[18-Feb-2016 17:04:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:28:18 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/ubuntu/workspace/Aula 3/ameba.php on line 11
+[18-Feb-2016 17:28:18 UTC] PHP Stack trace:
+[18-Feb-2016 17:28:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:28:18 UTC] PHP   2. Ameba->clona() /home/ubuntu/workspace/Aula 3/ameba.php:18
+[18-Feb-2016 17:28:38 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/ubuntu/workspace/Aula 3/ameba.php on line 6
+[18-Feb-2016 17:28:38 UTC] PHP Stack trace:
+[18-Feb-2016 17:28:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/ameba.php:0
+[18-Feb-2016 17:28:38 UTC] PHP   2. Ameba->clona() /home/ubuntu/workspace/Aula 3/ameba.php:18
+[18-Feb-2016 17:28:38 UTC] PHP   3. Ameba->__construct($nome = *uninitialized*) /home/ubuntu/workspace/Aula 3/ameba.php:11
+[18-Feb-2016 18:13:25 UTC] PHP Warning:  require_once(comandantephp): failed to open stream: No such file or directory in /home/ubuntu/workspace/Aula 3/navio.php on line 2
+[18-Feb-2016 18:13:25 UTC] PHP Stack trace:
+[18-Feb-2016 18:13:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:13:25 UTC] PHP Fatal error:  require_once(): Failed opening required 'comandantephp' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Aula 3/navio.php on line 2
+[18-Feb-2016 18:13:25 UTC] PHP Stack trace:
+[18-Feb-2016 18:13:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:14:41 UTC] PHP Warning:  require_once(comandantephp): failed to open stream: No such file or directory in /home/ubuntu/workspace/Aula 3/navio.php on line 2
+[18-Feb-2016 18:14:41 UTC] PHP Stack trace:
+[18-Feb-2016 18:14:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:14:41 UTC] PHP Fatal error:  require_once(): Failed opening required 'comandantephp' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Aula 3/navio.php on line 2
+[18-Feb-2016 18:14:41 UTC] PHP Stack trace:
+[18-Feb-2016 18:14:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:14:56 UTC] PHP Warning:  require_once(comandante): failed to open stream: No such file or directory in /home/ubuntu/workspace/Aula 3/navio.php on line 2
+[18-Feb-2016 18:14:56 UTC] PHP Stack trace:
+[18-Feb-2016 18:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:14:56 UTC] PHP Fatal error:  require_once(): Failed opening required 'comandante' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Aula 3/navio.php on line 2
+[18-Feb-2016 18:14:56 UTC] PHP Stack trace:
+[18-Feb-2016 18:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:15:10 UTC] PHP Warning:  require_once(comandante): failed to open stream: No such file or directory in /home/ubuntu/workspace/Aula 3/navio.php on line 2
+[18-Feb-2016 18:15:10 UTC] PHP Stack trace:
+[18-Feb-2016 18:15:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:15:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'comandante' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Aula 3/navio.php on line 2
+[18-Feb-2016 18:15:10 UTC] PHP Stack trace:
+[18-Feb-2016 18:15:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:15:26 UTC] PHP Fatal error:  Call to undefined method Navio::info() in /home/ubuntu/workspace/Aula 3/navio.php on line 25
+[18-Feb-2016 18:15:26 UTC] PHP Stack trace:
+[18-Feb-2016 18:15:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:18:16 UTC] PHP Fatal error:  Call to a member function info() on a non-object in /home/ubuntu/workspace/Aula 3/navio.php on line 16
+[18-Feb-2016 18:18:16 UTC] PHP Stack trace:
+[18-Feb-2016 18:18:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:18:16 UTC] PHP   2. Navio->mostraInfo() /home/ubuntu/workspace/Aula 3/navio.php:25
+[18-Feb-2016 18:18:42 UTC] PHP Fatal error:  Call to a member function info() on a non-object in /home/ubuntu/workspace/Aula 3/navio.php on line 16
+[18-Feb-2016 18:18:42 UTC] PHP Stack trace:
+[18-Feb-2016 18:18:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:18:42 UTC] PHP   2. Navio->mostraInfo() /home/ubuntu/workspace/Aula 3/navio.php:25
+[18-Feb-2016 18:18:48 UTC] PHP Fatal error:  Call to a member function info() on a non-object in /home/ubuntu/workspace/Aula 3/navio.php on line 16
+[18-Feb-2016 18:18:48 UTC] PHP Stack trace:
+[18-Feb-2016 18:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 3/navio.php:0
+[18-Feb-2016 18:18:48 UTC] PHP   2. Navio->mostraInfo() /home/ubuntu/workspace/Aula 3/navio.php:25
+[19-Feb-2016 21:53:30 UTC] PHP Catchable fatal error:  Object of class Churrasco could not be converted to string in /home/ubuntu/workspace/Lista 1/Exercicio1.php on line 29
+[19-Feb-2016 21:53:30 UTC] PHP Stack trace:
+[19-Feb-2016 21:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio1.php:0
+[19-Feb-2016 21:54:27 UTC] PHP Catchable fatal error:  Object of class Churrasco could not be converted to string in /home/ubuntu/workspace/Lista 1/Exercicio1.php on line 29
+[19-Feb-2016 21:54:27 UTC] PHP Stack trace:
+[19-Feb-2016 21:54:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio1.php:0
+[19-Feb-2016 21:56:05 UTC] PHP Catchable fatal error:  Argument 1 passed to Churrasco::verficarConsumo() must be an instance of Pessoa, none given, called in /home/ubuntu/workspace/Lista 1/Exercicio1.php on line 30 and defined in /home/ubuntu/workspace/Lista 1/Exercicio1.php on line 21
+[19-Feb-2016 21:56:05 UTC] PHP Stack trace:
+[19-Feb-2016 21:56:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio1.php:0
+[19-Feb-2016 21:56:05 UTC] PHP   2. Churrasco->verficarConsumo($p = *uninitialized*) /home/ubuntu/workspace/Lista 1/Exercicio1.php:30
+[19-Feb-2016 21:56:38 UTC] PHP Catchable fatal error:  Object of class Churrasco could not be converted to string in /home/ubuntu/workspace/Lista 1/Exercicio1.php on line 30
+[19-Feb-2016 21:56:38 UTC] PHP Stack trace:
+[19-Feb-2016 21:56:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio1.php:0
+[19-Feb-2016 21:59:12 UTC] PHP Catchable fatal error:  Object of class Churrasco could not be converted to string in /home/ubuntu/workspace/Lista 1/Exercicio1.php on line 30
+[19-Feb-2016 21:59:12 UTC] PHP Stack trace:
+[19-Feb-2016 21:59:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio1.php:0
+[19-Feb-2016 21:59:43 UTC] PHP Catchable fatal error:  Object of class Churrasco could not be converted to string in /home/ubuntu/workspace/Lista 1/Exercicio1.php on line 30
+[19-Feb-2016 21:59:43 UTC] PHP Stack trace:
+[19-Feb-2016 21:59:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio1.php:0
+[19-Feb-2016 22:00:07 UTC] PHP Catchable fatal error:  Object of class Churrasco could not be converted to string in /home/ubuntu/workspace/Lista 1/Exercicio1.php on line 30
+[19-Feb-2016 22:00:07 UTC] PHP Stack trace:
+[19-Feb-2016 22:00:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio1.php:0
+[19-Feb-2016 22:34:02 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 31
+[19-Feb-2016 22:34:02 UTC] PHP Stack trace:
+[19-Feb-2016 22:34:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:35:14 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 31
+[19-Feb-2016 22:35:14 UTC] PHP Stack trace:
+[19-Feb-2016 22:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:36:19 UTC] PHP Warning:  Missing argument 2 for Lampada::__construct(), called in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 32 and defined in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 7
+[19-Feb-2016 22:36:19 UTC] PHP Stack trace:
+[19-Feb-2016 22:36:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:36:19 UTC] PHP   2. Lampada->__construct($estado = *uninitialized*, $x = *uninitialized*) /home/ubuntu/workspace/Lista 1/Exercicio2.php:32
+[19-Feb-2016 22:36:19 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 33
+[19-Feb-2016 22:36:19 UTC] PHP Stack trace:
+[19-Feb-2016 22:36:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:36:38 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 33
+[19-Feb-2016 22:36:38 UTC] PHP Stack trace:
+[19-Feb-2016 22:36:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:38:07 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 31
+[19-Feb-2016 22:38:07 UTC] PHP Stack trace:
+[19-Feb-2016 22:38:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:38:59 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 31
+[19-Feb-2016 22:38:59 UTC] PHP Stack trace:
+[19-Feb-2016 22:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:39:02 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 31
+[19-Feb-2016 22:39:02 UTC] PHP Stack trace:
+[19-Feb-2016 22:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:39:05 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 31
+[19-Feb-2016 22:39:05 UTC] PHP Stack trace:
+[19-Feb-2016 22:39:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:39:07 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 31
+[19-Feb-2016 22:39:07 UTC] PHP Stack trace:
+[19-Feb-2016 22:39:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:44:58 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 26
+[19-Feb-2016 22:44:58 UTC] PHP Stack trace:
+[19-Feb-2016 22:44:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[19-Feb-2016 22:45:04 UTC] PHP Fatal error:  Call to undefined function click() in /home/ubuntu/workspace/Lista 1/Exercicio2.php on line 26
+[19-Feb-2016 22:45:04 UTC] PHP Stack trace:
+[19-Feb-2016 22:45:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio2.php:0
+[21-Feb-2016 17:38:35 UTC] PHP Fatal error:  Call to undefined function checarSaldo() in /home/ubuntu/workspace/Lista 1/Exercicio4.php on line 21
+[21-Feb-2016 17:38:35 UTC] PHP Stack trace:
+[21-Feb-2016 17:38:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio4.php:0
+[21-Feb-2016 17:38:35 UTC] PHP   2. Cliente->sacar($saque = *uninitialized*) /home/ubuntu/workspace/Lista 1/Exercicio4.php:36
+[21-Feb-2016 17:54:21 UTC] PHP Fatal error:  Call to undefined method Cliente::saque() in /home/ubuntu/workspace/Lista 1/Exercicio4.php on line 36
+[21-Feb-2016 17:54:21 UTC] PHP Stack trace:
+[21-Feb-2016 17:54:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio4.php:0
+[25-Feb-2016 17:52:36 UTC] PHP Fatal error:  Call to a member function checaEstado() on a non-object in /home/ubuntu/workspace/Aula 4/Aula4.php on line 32
+[25-Feb-2016 17:52:36 UTC] PHP Stack trace:
+[25-Feb-2016 17:52:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 4/Aula4.php:0
+[25-Feb-2016 17:52:36 UTC] PHP   2. Lanterna->checaEstados() /home/ubuntu/workspace/Aula 4/Aula4.php:56
+[25-Feb-2016 17:54:16 UTC] PHP Catchable fatal error:  Object of class Pilha could not be converted to string in /home/ubuntu/workspace/Aula 4/Aula4.php on line 32
+[25-Feb-2016 17:54:16 UTC] PHP Stack trace:
+[25-Feb-2016 17:54:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 4/Aula4.php:0
+[25-Feb-2016 17:54:16 UTC] PHP   2. Lanterna->checaEstados() /home/ubuntu/workspace/Aula 4/Aula4.php:56
+[25-Feb-2016 17:54:49 UTC] PHP Catchable fatal error:  Object of class Pilha could not be converted to string in /home/ubuntu/workspace/Aula 4/Aula4.php on line 32
+[25-Feb-2016 17:54:49 UTC] PHP Stack trace:
+[25-Feb-2016 17:54:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 4/Aula4.php:0
+[25-Feb-2016 17:54:49 UTC] PHP   2. Lanterna->checaEstados() /home/ubuntu/workspace/Aula 4/Aula4.php:56
+[25-Feb-2016 18:18:44 UTC] PHP Fatal error:  Call to a member function checaEstado() on a non-object in /home/ubuntu/workspace/Aula 4/Aula4.php on line 33
+[25-Feb-2016 18:18:44 UTC] PHP Stack trace:
+[25-Feb-2016 18:18:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 4/Aula4.php:0
+[25-Feb-2016 18:18:44 UTC] PHP   2. Lanterna->checaEstados() /home/ubuntu/workspace/Aula 4/Aula4.php:57
+[25-Feb-2016 18:20:01 UTC] PHP Fatal error:  Call to a member function checaEstado() on a non-object in /home/ubuntu/workspace/Aula 4/Aula4.php on line 33
+[25-Feb-2016 18:20:01 UTC] PHP Stack trace:
+[25-Feb-2016 18:20:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 4/Aula4.php:0
+[25-Feb-2016 18:20:01 UTC] PHP   2. Lanterna->checaEstados() /home/ubuntu/workspace/Aula 4/Aula4.php:57
+[25-Feb-2016 19:19:52 UTC] PHP Fatal error:  Call to undefined function ajustaEstagio() in /home/ubuntu/workspace/Aula 4/pessoa.php on line 12
+[25-Feb-2016 19:19:52 UTC] PHP Stack trace:
+[25-Feb-2016 19:19:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 4/pessoa.php:0
+[25-Feb-2016 19:19:52 UTC] PHP   2. Pessoa->__construct($nome = *uninitialized*, $idade = *uninitialized*) /home/ubuntu/workspace/Aula 4/pessoa.php:45
+[25-Feb-2016 19:20:18 UTC] PHP Fatal error:  Call to undefined function ajustaEstagio() in /home/ubuntu/workspace/Aula 4/pessoa.php on line 29
+[25-Feb-2016 19:20:18 UTC] PHP Stack trace:
+[25-Feb-2016 19:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 4/pessoa.php:0
+[25-Feb-2016 19:20:18 UTC] PHP   2. Pessoa->aniversario() /home/ubuntu/workspace/Aula 4/pessoa.php:48
+[25-Feb-2016 19:22:09 UTC] PHP Fatal error:  Call to undefined function ajustaEstagio() in /home/ubuntu/workspace/Aula 4/pessoa.php on line 30
+[25-Feb-2016 19:22:09 UTC] PHP Stack trace:
+[25-Feb-2016 19:22:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 4/pessoa.php:0
+[25-Feb-2016 19:22:09 UTC] PHP   2. Pessoa->aniversario() /home/ubuntu/workspace/Aula 4/pessoa.php:49
+[26-Feb-2016 20:03:32 UTC] PHP Fatal error:  Call to a member function calcArea() on a non-object in /home/ubuntu/workspace/Lista 1/Exercicio5.php on line 8
+[26-Feb-2016 20:03:32 UTC] PHP Stack trace:
+[26-Feb-2016 20:03:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio5.php:0
+[26-Feb-2016 20:03:32 UTC] PHP   2. Triangulo->__construct($lado = *uninitialized*) /home/ubuntu/workspace/Lista 1/Exercicio5.php:26
+[26-Feb-2016 20:03:58 UTC] PHP Fatal error:  Call to a member function calcArea() on a non-object in /home/ubuntu/workspace/Lista 1/Exercicio5.php on line 8
+[26-Feb-2016 20:03:58 UTC] PHP Stack trace:
+[26-Feb-2016 20:03:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio5.php:0
+[26-Feb-2016 20:03:58 UTC] PHP   2. Triangulo->__construct($lado = *uninitialized*) /home/ubuntu/workspace/Lista 1/Exercicio5.php:26
+[26-Feb-2016 20:06:22 UTC] PHP Fatal error:  Call to a member function calcArea() on a non-object in /home/ubuntu/workspace/Lista 1/Exercicio5.php on line 8
+[26-Feb-2016 20:06:22 UTC] PHP Stack trace:
+[26-Feb-2016 20:06:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio5.php:0
+[26-Feb-2016 20:06:22 UTC] PHP   2. Triangulo->__construct($lado = *uninitialized*) /home/ubuntu/workspace/Lista 1/Exercicio5.php:26
+[26-Feb-2016 20:06:38 UTC] PHP Fatal error:  Call to a member function calcArea() on a non-object in /home/ubuntu/workspace/Lista 1/Exercicio5.php on line 8
+[26-Feb-2016 20:06:38 UTC] PHP Stack trace:
+[26-Feb-2016 20:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lista 1/Exercicio5.php:0
+[26-Feb-2016 20:06:38 UTC] PHP   2. Triangulo->__construct($lado = *uninitialized*) /home/ubuntu/workspace/Lista 1/Exercicio5.php:26
+[03-Mar-2016 17:25:04 UTC] PHP Fatal error:  Call to undefined method Gato::latir() in /home/ubuntu/workspace/Aula 5/aula5.php on line 80
+[03-Mar-2016 17:25:04 UTC] PHP Stack trace:
+[03-Mar-2016 17:25:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 5/aula5.php:0
+[03-Mar-2016 17:30:29 UTC] PHP Fatal error:  Method name must be a string in /home/ubuntu/workspace/Aula 5/aula5.php on line 87
+[03-Mar-2016 17:30:29 UTC] PHP Stack trace:
+[03-Mar-2016 17:30:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 5/aula5.php:0
+[03-Mar-2016 17:46:27 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/ubuntu/workspace/Aula 5/aula5.php on line 94
+[03-Mar-2016 17:46:27 UTC] PHP Stack trace:
+[03-Mar-2016 17:46:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 5/aula5.php:0
+[03-Mar-2016 18:57:07 UTC] PHP Fatal error:  Class 'Gatp' not found in /home/ubuntu/workspace/Aula 5/sobreEscrita.php on line 86
+[03-Mar-2016 18:57:07 UTC] PHP Stack trace:
+[03-Mar-2016 18:57:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 5/sobreEscrita.php:0
+[03-Mar-2016 18:57:07 UTC] PHP Fatal error:  Class 'Gatp' not found in /home/ubuntu/workspace/Aula 5/sobreEscrita.php on line 86
+[03-Mar-2016 18:57:07 UTC] PHP Stack trace:
+[03-Mar-2016 18:57:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 5/sobreEscrita.php:0
+[03-Mar-2016 19:13:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Aula 5/Exercicio.php on line 54
+[03-Mar-2016 19:13:50 UTC] PHP Stack trace:
+[03-Mar-2016 19:13:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 5/Exercicio.php:0
+[03-Mar-2016 19:14:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Aula 5/Exercicio.php on line 54
+[03-Mar-2016 19:14:44 UTC] PHP Stack trace:
+[03-Mar-2016 19:14:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 5/Exercicio.php:0
+[03-Mar-2016 19:15:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Aula 5/Exercicio.php on line 54
+[03-Mar-2016 19:15:49 UTC] PHP Stack trace:
+[03-Mar-2016 19:15:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 5/Exercicio.php:0
+[03-Mar-2016 19:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Aula 5/Exercicio.php on line 54
+[03-Mar-2016 19:16:07 UTC] PHP Stack trace:
+[03-Mar-2016 19:16:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 5/Exercicio.php:0
+[03-Mar-2016 19:18:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Aula 5/Exercicio.php on line 54
+[03-Mar-2016 19:18:54 UTC] PHP Stack trace:
+[03-Mar-2016 19:18:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 5/Exercicio.php:0
+[17-Mar-2016 16:44:27 UTC] PHP Fatal error:  Method name must be a string in /home/ubuntu/workspace/Aula 7/aula7.php on line 22
+[17-Mar-2016 16:44:27 UTC] PHP Stack trace:
+[17-Mar-2016 16:44:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula 7/aula7.php:0
+[17-Mar-2016 17:54:29 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'teste' in /home/ubuntu/workspace/Aula7/aula7.php on line 29
+[17-Mar-2016 17:54:29 UTC] PHP Stack trace:
+[17-Mar-2016 17:54:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 17:54:29 UTC] PHP   2. Teste->insert() /home/ubuntu/workspace/Aula7/aula7.php:48
+[17-Mar-2016 17:54:29 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/Aula7/aula7.php:29
+[17-Mar-2016 17:54:29 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/ubuntu/workspace/Aula7/aula7.php on line 33
+[17-Mar-2016 17:54:29 UTC] PHP Stack trace:
+[17-Mar-2016 17:54:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 17:54:29 UTC] PHP   2. Teste->insert() /home/ubuntu/workspace/Aula7/aula7.php:48
+[17-Mar-2016 17:54:29 UTC] PHP   3. mysqli->prepare() /home/ubuntu/workspace/Aula7/aula7.php:33
+[17-Mar-2016 17:54:29 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 34
+[17-Mar-2016 17:54:29 UTC] PHP Stack trace:
+[17-Mar-2016 17:54:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 17:54:29 UTC] PHP   2. Teste->insert() /home/ubuntu/workspace/Aula7/aula7.php:48
+[17-Mar-2016 17:55:29 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 34
+[17-Mar-2016 17:55:29 UTC] PHP Stack trace:
+[17-Mar-2016 17:55:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 17:55:29 UTC] PHP   2. Teste->insert() /home/ubuntu/workspace/Aula7/aula7.php:48
+[17-Mar-2016 18:15:43 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 34
+[17-Mar-2016 18:15:43 UTC] PHP Stack trace:
+[17-Mar-2016 18:15:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 18:15:43 UTC] PHP   2. Teste->insert() /home/ubuntu/workspace/Aula7/aula7.php:48
+[17-Mar-2016 18:29:58 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'romefeller'@'localhost' (using password: NO) in /home/ubuntu/workspace/Aula7/aula7.php on line 44
+[17-Mar-2016 18:29:58 UTC] PHP Stack trace:
+[17-Mar-2016 18:29:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 18:29:58 UTC] PHP   2. Teste->listar() /home/ubuntu/workspace/Aula7/aula7.php:56
+[17-Mar-2016 18:29:58 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/Aula7/aula7.php:44
+[17-Mar-2016 18:29:58 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/ubuntu/workspace/Aula7/aula7.php on line 45
+[17-Mar-2016 18:29:58 UTC] PHP Stack trace:
+[17-Mar-2016 18:29:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 18:29:58 UTC] PHP   2. Teste->listar() /home/ubuntu/workspace/Aula7/aula7.php:56
+[17-Mar-2016 18:29:58 UTC] PHP   3. mysqli->prepare() /home/ubuntu/workspace/Aula7/aula7.php:45
+[17-Mar-2016 18:29:58 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 46
+[17-Mar-2016 18:29:58 UTC] PHP Stack trace:
+[17-Mar-2016 18:29:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 18:29:58 UTC] PHP   2. Teste->listar() /home/ubuntu/workspace/Aula7/aula7.php:56
+[17-Mar-2016 18:43:04 UTC] PHP Fatal error:  Call to undefined function listar() in /home/ubuntu/workspace/Aula7/aula7.php on line 38
+[17-Mar-2016 18:43:04 UTC] PHP Stack trace:
+[17-Mar-2016 18:43:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 18:43:04 UTC] PHP   2. Teste->insert() /home/ubuntu/workspace/Aula7/aula7.php:62
+[17-Mar-2016 18:55:59 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 62
+[17-Mar-2016 18:55:59 UTC] PHP Stack trace:
+[17-Mar-2016 18:55:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 18:55:59 UTC] PHP   2. Teste->pesquisaID() /home/ubuntu/workspace/Aula7/aula7.php:73
+[17-Mar-2016 19:00:22 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 66
+[17-Mar-2016 19:00:22 UTC] PHP Stack trace:
+[17-Mar-2016 19:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 19:00:22 UTC] PHP   2. Teste->pesquisaID() /home/ubuntu/workspace/Aula7/aula7.php:77
+[17-Mar-2016 19:07:25 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/Aula7/aula7.php on line 69
+[17-Mar-2016 19:07:25 UTC] PHP Stack trace:
+[17-Mar-2016 19:07:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 19:07:25 UTC] PHP   2. Teste->pesquisaID() /home/ubuntu/workspace/Aula7/aula7.php:77
+[17-Mar-2016 19:07:47 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/Aula7/aula7.php on line 69
+[17-Mar-2016 19:07:47 UTC] PHP Stack trace:
+[17-Mar-2016 19:07:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 19:07:47 UTC] PHP   2. Teste->pesquisaID() /home/ubuntu/workspace/Aula7/aula7.php:77
+[17-Mar-2016 19:08:03 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/Aula7/aula7.php on line 69
+[17-Mar-2016 19:08:03 UTC] PHP Stack trace:
+[17-Mar-2016 19:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 19:08:03 UTC] PHP   2. Teste->pesquisaID() /home/ubuntu/workspace/Aula7/aula7.php:77
+[17-Mar-2016 19:11:38 UTC] PHP Parse error:  syntax error, unexpected 'form' (T_STRING) in /home/ubuntu/workspace/Aula7/aula7.php on line 11
+[17-Mar-2016 19:11:51 UTC] PHP Parse error:  syntax error, unexpected 'form' (T_STRING) in /home/ubuntu/workspace/Aula7/aula7.php on line 11
+[17-Mar-2016 19:11:55 UTC] PHP Parse error:  syntax error, unexpected 'form' (T_STRING) in /home/ubuntu/workspace/Aula7/aula7.php on line 11
+[17-Mar-2016 19:30:27 UTC] PHP Fatal error:  Call to undefined method mysqli_result::mysql_fetch_assoc() in /home/ubuntu/workspace/Aula7/aula7.php on line 70
+[17-Mar-2016 19:30:27 UTC] PHP Stack trace:
+[17-Mar-2016 19:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 19:30:27 UTC] PHP   2. Teste->pesquisaID() /home/ubuntu/workspace/Aula7/aula7.php:82
+[17-Mar-2016 19:31:04 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/Aula7/aula7.php on line 70
+[17-Mar-2016 19:31:04 UTC] PHP Stack trace:
+[17-Mar-2016 19:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 19:31:04 UTC] PHP   2. Teste->pesquisaID() /home/ubuntu/workspace/Aula7/aula7.php:82
+[17-Mar-2016 19:31:04 UTC] PHP   3. mysql_fetch_assoc() /home/ubuntu/workspace/Aula7/aula7.php:70
+[17-Mar-2016 19:31:36 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/Aula7/aula7.php on line 70
+[17-Mar-2016 19:31:36 UTC] PHP Stack trace:
+[17-Mar-2016 19:31:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 19:31:36 UTC] PHP   2. Teste->pesquisaID() /home/ubuntu/workspace/Aula7/aula7.php:82
+[17-Mar-2016 19:31:36 UTC] PHP   3. mysql_fetch_assoc() /home/ubuntu/workspace/Aula7/aula7.php:70
+[17-Mar-2016 19:32:15 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Aula7/aula7.php on line 73
+[17-Mar-2016 19:32:53 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Aula7/aula7.php on line 73
+[17-Mar-2016 19:33:06 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/Aula7/aula7.php on line 70
+[17-Mar-2016 19:33:06 UTC] PHP Stack trace:
+[17-Mar-2016 19:33:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 19:33:06 UTC] PHP   2. Teste->pesquisaID() /home/ubuntu/workspace/Aula7/aula7.php:82
+[17-Mar-2016 19:33:06 UTC] PHP   3. mysql_fetch_assoc() /home/ubuntu/workspace/Aula7/aula7.php:70
+[17-Mar-2016 22:08:53 UTC] PHP Fatal error:  Call to undefined function excluir() in /home/ubuntu/workspace/Aula7/aula7.php on line 57
+[17-Mar-2016 22:08:53 UTC] PHP Stack trace:
+[17-Mar-2016 22:08:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 22:08:53 UTC] PHP   2. Teste->insert() /home/ubuntu/workspace/Aula7/aula7.php:91
+[17-Mar-2016 22:08:53 UTC] PHP   3. Teste->listar() /home/ubuntu/workspace/Aula7/aula7.php:43
+[17-Mar-2016 22:09:00 UTC] PHP Fatal error:  Call to undefined function excluir() in /home/ubuntu/workspace/Aula7/aula7.php on line 57
+[17-Mar-2016 22:09:00 UTC] PHP Stack trace:
+[17-Mar-2016 22:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 22:09:00 UTC] PHP   2. Teste->listar() /home/ubuntu/workspace/Aula7/aula7.php:91
+[17-Mar-2016 22:09:28 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 83
+[17-Mar-2016 22:09:28 UTC] PHP Stack trace:
+[17-Mar-2016 22:09:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 22:09:28 UTC] PHP   2. Teste->listar() /home/ubuntu/workspace/Aula7/aula7.php:91
+[17-Mar-2016 22:09:28 UTC] PHP   3. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:57
+[17-Mar-2016 22:22:06 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 84
+[17-Mar-2016 22:22:06 UTC] PHP Stack trace:
+[17-Mar-2016 22:22:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 22:22:06 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:92
+[17-Mar-2016 22:23:27 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 85
+[17-Mar-2016 22:23:27 UTC] PHP Stack trace:
+[17-Mar-2016 22:23:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 22:23:27 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:92
+[17-Mar-2016 22:25:05 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 85
+[17-Mar-2016 22:25:05 UTC] PHP Stack trace:
+[17-Mar-2016 22:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 22:25:05 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:92
+[17-Mar-2016 22:31:04 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 85
+[17-Mar-2016 22:31:04 UTC] PHP Stack trace:
+[17-Mar-2016 22:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 22:31:04 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:92
+[17-Mar-2016 22:35:24 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 84
+[17-Mar-2016 22:35:24 UTC] PHP Stack trace:
+[17-Mar-2016 22:35:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 22:35:24 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:92
+[17-Mar-2016 22:37:19 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/Aula7/aula7.php on line 84
+[17-Mar-2016 22:37:19 UTC] PHP Stack trace:
+[17-Mar-2016 22:37:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 22:37:19 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:92
+[17-Mar-2016 23:04:24 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/Aula7/aula7.php on line 86
+[17-Mar-2016 23:04:24 UTC] PHP Stack trace:
+[17-Mar-2016 23:04:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:04:24 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:93
+[17-Mar-2016 23:22:46 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _GET in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:34:54 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 93 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:34:54 UTC] PHP Stack trace:
+[17-Mar-2016 23:34:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:34:54 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:93
+[17-Mar-2016 23:34:54 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/Aula7/aula7.php on line 83
+[17-Mar-2016 23:34:54 UTC] PHP Stack trace:
+[17-Mar-2016 23:34:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:34:54 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:93
+[17-Mar-2016 23:35:30 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 93 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:35:30 UTC] PHP Stack trace:
+[17-Mar-2016 23:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:35:30 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:93
+[17-Mar-2016 23:35:30 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/Aula7/aula7.php on line 83
+[17-Mar-2016 23:35:30 UTC] PHP Stack trace:
+[17-Mar-2016 23:35:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:35:30 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:93
+[17-Mar-2016 23:36:24 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 93 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:36:24 UTC] PHP Stack trace:
+[17-Mar-2016 23:36:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:36:24 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:93
+[17-Mar-2016 23:36:24 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/Aula7/aula7.php on line 83
+[17-Mar-2016 23:36:24 UTC] PHP Stack trace:
+[17-Mar-2016 23:36:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:36:24 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:93
+[17-Mar-2016 23:37:17 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 93 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:37:17 UTC] PHP Stack trace:
+[17-Mar-2016 23:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:37:17 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:93
+[17-Mar-2016 23:37:17 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/Aula7/aula7.php on line 83
+[17-Mar-2016 23:37:17 UTC] PHP Stack trace:
+[17-Mar-2016 23:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:37:17 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:93
+[17-Mar-2016 23:41:32 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 94 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:41:32 UTC] PHP Stack trace:
+[17-Mar-2016 23:41:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:41:32 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:94
+[17-Mar-2016 23:41:41 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 94 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:41:41 UTC] PHP Stack trace:
+[17-Mar-2016 23:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:41:41 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:94
+[17-Mar-2016 23:44:44 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 94 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:44:44 UTC] PHP Stack trace:
+[17-Mar-2016 23:44:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:44:44 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:94
+[17-Mar-2016 23:48:07 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 94 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:48:07 UTC] PHP Stack trace:
+[17-Mar-2016 23:48:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:48:07 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:94
+[17-Mar-2016 23:49:22 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 94 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:49:22 UTC] PHP Stack trace:
+[17-Mar-2016 23:49:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:49:22 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:94
+[17-Mar-2016 23:52:15 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 94 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:52:15 UTC] PHP Stack trace:
+[17-Mar-2016 23:52:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:52:15 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:94
+[17-Mar-2016 23:52:44 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 94 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[17-Mar-2016 23:52:44 UTC] PHP Stack trace:
+[17-Mar-2016 23:52:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[17-Mar-2016 23:52:44 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:94
+[18-Mar-2016 00:10:21 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 94 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[18-Mar-2016 00:10:21 UTC] PHP Stack trace:
+[18-Mar-2016 00:10:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[18-Mar-2016 00:10:21 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:94
+[18-Mar-2016 00:11:24 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 89 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[18-Mar-2016 00:11:24 UTC] PHP Stack trace:
+[18-Mar-2016 00:11:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[18-Mar-2016 00:11:24 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:89
+[18-Mar-2016 00:12:52 UTC] PHP Warning:  Missing argument 1 for Teste::excluir(), called in /home/ubuntu/workspace/Aula7/aula7.php on line 89 and defined in /home/ubuntu/workspace/Aula7/aula7.php on line 80
+[18-Mar-2016 00:12:52 UTC] PHP Stack trace:
+[18-Mar-2016 00:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[18-Mar-2016 00:12:52 UTC] PHP   2. Teste->excluir() /home/ubuntu/workspace/Aula7/aula7.php:89
+[18-Mar-2016 16:28:15 UTC] PHP Fatal error:  Method name must be a string in /home/ubuntu/workspace/Aula7/aula7.php on line 94
+[18-Mar-2016 16:28:15 UTC] PHP Stack trace:
+[18-Mar-2016 16:28:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Aula7/aula7.php:0
+[24-Mar-2016 17:46:17 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:53 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:54 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:54 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:55 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:56 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:57 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:57 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:58 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:58 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:59 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:46:59 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:47:00 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:47:00 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:48:19 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 21
+[24-Mar-2016 17:50:20 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 22
+[24-Mar-2016 17:51:00 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 22
+[24-Mar-2016 17:51:16 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 14
+[24-Mar-2016 18:03:44 UTC] PHP Fatal error:  Cannot access private property Produto::$nome in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 17
+[24-Mar-2016 18:03:44 UTC] PHP Stack trace:
+[24-Mar-2016 18:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:03:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:10
+[24-Mar-2016 18:03:44 UTC] PHP   3. ProdutoDAO->insere() /home/ubuntu/workspace/Simulado-p1/Exercicio2.php:53
+[24-Mar-2016 18:05:19 UTC] PHP Fatal error:  Cannot access private property Produto::$nome in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 17
+[24-Mar-2016 18:05:19 UTC] PHP Stack trace:
+[24-Mar-2016 18:05:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:05:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:10
+[24-Mar-2016 18:05:19 UTC] PHP   3. ProdutoDAO->insere() /home/ubuntu/workspace/Simulado-p1/Exercicio2.php:53
+[24-Mar-2016 18:06:50 UTC] PHP Fatal error:  Class 'ProdutoDAO' not found in /home/ubuntu/workspace/Simulado-p1/Exercicio2.php on line 52
+[24-Mar-2016 18:06:50 UTC] PHP Stack trace:
+[24-Mar-2016 18:06:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:06:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:10
+[24-Mar-2016 18:07:21 UTC] PHP Fatal error:  Class 'Produto' not found in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 12
+[24-Mar-2016 18:07:21 UTC] PHP Stack trace:
+[24-Mar-2016 18:07:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:09:38 UTC] PHP Fatal error:  Class 'Produto' not found in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 12
+[24-Mar-2016 18:09:38 UTC] PHP Stack trace:
+[24-Mar-2016 18:09:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:10:51 UTC] PHP Fatal error:  Class 'Produto' not found in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 12
+[24-Mar-2016 18:10:51 UTC] PHP Stack trace:
+[24-Mar-2016 18:10:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:11:47 UTC] PHP Fatal error:  Class 'Produto' not found in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 14
+[24-Mar-2016 18:11:47 UTC] PHP Stack trace:
+[24-Mar-2016 18:11:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:13:26 UTC] PHP Warning:  Missing argument 1 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 58 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:13:26 UTC] PHP Stack trace:
+[24-Mar-2016 18:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:13:26 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:58
+[24-Mar-2016 18:13:26 UTC] PHP Warning:  Missing argument 2 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 58 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:13:26 UTC] PHP Stack trace:
+[24-Mar-2016 18:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:13:26 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:58
+[24-Mar-2016 18:13:26 UTC] PHP Fatal error:  Cannot access private property Produto::$nome in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 41
+[24-Mar-2016 18:13:26 UTC] PHP Stack trace:
+[24-Mar-2016 18:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:13:26 UTC] PHP   2. ProdutoDAO->insere() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:59
+[24-Mar-2016 18:14:48 UTC] PHP Warning:  Missing argument 1 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 51 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:14:48 UTC] PHP Stack trace:
+[24-Mar-2016 18:14:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:14:48 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:51
+[24-Mar-2016 18:14:48 UTC] PHP Warning:  Missing argument 2 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 51 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:14:48 UTC] PHP Stack trace:
+[24-Mar-2016 18:14:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:14:48 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:51
+[24-Mar-2016 18:14:48 UTC] PHP Fatal error:  Cannot access private property Produto::$nome in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 41
+[24-Mar-2016 18:14:48 UTC] PHP Stack trace:
+[24-Mar-2016 18:14:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:14:48 UTC] PHP   2. ProdutoDAO->insere() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:52
+[24-Mar-2016 18:18:53 UTC] PHP Warning:  Missing argument 1 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 45 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:18:53 UTC] PHP Stack trace:
+[24-Mar-2016 18:18:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:18:53 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:45
+[24-Mar-2016 18:18:53 UTC] PHP Warning:  Missing argument 2 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 45 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:18:53 UTC] PHP Stack trace:
+[24-Mar-2016 18:18:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:18:53 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:45
+[24-Mar-2016 18:21:23 UTC] PHP Warning:  Missing argument 1 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 46 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:21:23 UTC] PHP Stack trace:
+[24-Mar-2016 18:21:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:21:23 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:46
+[24-Mar-2016 18:21:23 UTC] PHP Warning:  Missing argument 2 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 46 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:21:23 UTC] PHP Stack trace:
+[24-Mar-2016 18:21:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:21:23 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:46
+[24-Mar-2016 18:23:33 UTC] PHP Warning:  Missing argument 1 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 46 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:23:33 UTC] PHP Stack trace:
+[24-Mar-2016 18:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:23:33 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:46
+[24-Mar-2016 18:23:33 UTC] PHP Warning:  Missing argument 2 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 46 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:23:33 UTC] PHP Stack trace:
+[24-Mar-2016 18:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:23:33 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:46
+[24-Mar-2016 18:23:49 UTC] PHP Warning:  Missing argument 1 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 46 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:23:49 UTC] PHP Stack trace:
+[24-Mar-2016 18:23:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:23:49 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:46
+[24-Mar-2016 18:23:49 UTC] PHP Warning:  Missing argument 2 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 46 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 18:23:49 UTC] PHP Stack trace:
+[24-Mar-2016 18:23:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:23:49 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:46
+[24-Mar-2016 18:23:49 UTC] PHP Fatal error:  Cannot access private property Produto::$nome in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 41
+[24-Mar-2016 18:23:49 UTC] PHP Stack trace:
+[24-Mar-2016 18:23:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 18:23:49 UTC] PHP   2. ProdutoDAO->insere() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:52
+[24-Mar-2016 18:56:03 UTC] PHP Fatal error:  Class 'ProdutoDAO' not found in /home/ubuntu/workspace/Simulado-p1/Exercicio2.php on line 52
+[24-Mar-2016 18:56:03 UTC] PHP Stack trace:
+[24-Mar-2016 18:56:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio2.php:0
+[24-Mar-2016 19:12:58 UTC] PHP Warning:  Missing argument 1 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 47 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 19:12:58 UTC] PHP Stack trace:
+[24-Mar-2016 19:12:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 19:12:58 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:47
+[24-Mar-2016 19:12:58 UTC] PHP Warning:  Missing argument 2 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 47 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 19:12:58 UTC] PHP Stack trace:
+[24-Mar-2016 19:12:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 19:12:58 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:47
+[24-Mar-2016 19:14:04 UTC] PHP Warning:  Missing argument 1 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 47 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 19:14:04 UTC] PHP Stack trace:
+[24-Mar-2016 19:14:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 19:14:04 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:47
+[24-Mar-2016 19:14:04 UTC] PHP Warning:  Missing argument 2 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 47 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 19:14:04 UTC] PHP Stack trace:
+[24-Mar-2016 19:14:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 19:14:04 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:47
+[24-Mar-2016 20:27:48 UTC] PHP Warning:  Missing argument 1 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 47 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 20:27:48 UTC] PHP Stack trace:
+[24-Mar-2016 20:27:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 20:27:48 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:47
+[24-Mar-2016 20:27:48 UTC] PHP Warning:  Missing argument 2 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 47 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 20:27:48 UTC] PHP Stack trace:
+[24-Mar-2016 20:27:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 20:27:48 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:47
+[24-Mar-2016 20:29:02 UTC] PHP Fatal error:  Cannot access private property Produto::$nome in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 42
+[24-Mar-2016 20:29:02 UTC] PHP Stack trace:
+[24-Mar-2016 20:29:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 20:29:02 UTC] PHP   2. ProdutoDAO->insere() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:53
+[24-Mar-2016 20:35:27 UTC] PHP Fatal error:  Cannot access private property Produto::$nome in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 31
+[24-Mar-2016 20:35:27 UTC] PHP Stack trace:
+[24-Mar-2016 20:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 20:35:27 UTC] PHP   2. ProdutoDAO->insere() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:38
+[24-Mar-2016 20:43:24 UTC] PHP Fatal error:  Cannot access private property Produto::$nome in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 31
+[24-Mar-2016 20:43:24 UTC] PHP Stack trace:
+[24-Mar-2016 20:43:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 20:43:24 UTC] PHP   2. ProdutoDAO->insere() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:41
+[24-Mar-2016 20:46:16 UTC] PHP Fatal error:  Cannot access private property Produto::$nome in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 31
+[24-Mar-2016 20:46:16 UTC] PHP Stack trace:
+[24-Mar-2016 20:46:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 20:46:16 UTC] PHP   2. ProdutoDAO->insere() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:43
+[24-Mar-2016 20:46:31 UTC] PHP Fatal error:  Cannot access private property Produto::$nome in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 31
+[24-Mar-2016 20:46:31 UTC] PHP Stack trace:
+[24-Mar-2016 20:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 20:46:31 UTC] PHP   2. ProdutoDAO->insere() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:43
+[24-Mar-2016 23:05:03 UTC] PHP Warning:  Missing argument 1 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 37 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 23:05:03 UTC] PHP Stack trace:
+[24-Mar-2016 23:05:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 23:05:03 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:37
+[24-Mar-2016 23:05:03 UTC] PHP Warning:  Missing argument 2 for Produto::__construct(), called in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 37 and defined in /home/ubuntu/workspace/Simulado-p1/Exercicio3.php on line 19
+[24-Mar-2016 23:05:03 UTC] PHP Stack trace:
+[24-Mar-2016 23:05:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:0
+[24-Mar-2016 23:05:03 UTC] PHP   2. Produto->__construct() /home/ubuntu/workspace/Simulado-p1/Exercicio3.php:37
+[29-Mar-2016 23:09:11 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/Prova/Exercicio1.php on line 48
+[29-Mar-2016 23:09:28 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/Prova/Exercicio1.php on line 48
+[29-Mar-2016 23:10:35 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/Prova/Exercicio1.php on line 53
+[29-Mar-2016 23:11:02 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/Prova/Exercicio1.php on line 53
+[29-Mar-2016 23:11:04 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/Prova/Exercicio1.php on line 53
+[29-Mar-2016 23:11:05 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/Prova/Exercicio1.php on line 53
+[29-Mar-2016 23:11:16 UTC] PHP Catchable fatal error:  Argument 1 passed to Estante::__construct() must be an instance of Livro, array given, called in /home/ubuntu/workspace/Prova/Exercicio1.php on line 51 and defined in /home/ubuntu/workspace/Prova/Exercicio1.php on line 17
+[29-Mar-2016 23:11:16 UTC] PHP Stack trace:
+[29-Mar-2016 23:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:11:16 UTC] PHP   2. Estante->__construct() /home/ubuntu/workspace/Prova/Exercicio1.php:51
+[29-Mar-2016 23:11:49 UTC] PHP Catchable fatal error:  Argument 1 passed to Estante::__construct() must be an instance of Livro, array given, called in /home/ubuntu/workspace/Prova/Exercicio1.php on line 51 and defined in /home/ubuntu/workspace/Prova/Exercicio1.php on line 17
+[29-Mar-2016 23:11:49 UTC] PHP Stack trace:
+[29-Mar-2016 23:11:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:11:49 UTC] PHP   2. Estante->__construct() /home/ubuntu/workspace/Prova/Exercicio1.php:51
+[29-Mar-2016 23:14:53 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/ubuntu/workspace/Prova/Exercicio1.php on line 17
+[29-Mar-2016 23:15:17 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/Prova/Exercicio1.php on line 18
+[29-Mar-2016 23:15:25 UTC] PHP Catchable fatal error:  Argument 1 passed to Estante::__construct() must be an instance of Livro, array given, called in /home/ubuntu/workspace/Prova/Exercicio1.php on line 51 and defined in /home/ubuntu/workspace/Prova/Exercicio1.php on line 17
+[29-Mar-2016 23:15:25 UTC] PHP Stack trace:
+[29-Mar-2016 23:15:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:15:25 UTC] PHP   2. Estante->__construct() /home/ubuntu/workspace/Prova/Exercicio1.php:51
+[29-Mar-2016 23:16:11 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/ubuntu/workspace/Prova/Exercicio1.php on line 17
+[29-Mar-2016 23:16:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 23
+[29-Mar-2016 23:16:27 UTC] PHP Stack trace:
+[29-Mar-2016 23:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:16:27 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:52
+[29-Mar-2016 23:16:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 31
+[29-Mar-2016 23:16:27 UTC] PHP Stack trace:
+[29-Mar-2016 23:16:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:16:27 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:53
+[29-Mar-2016 23:24:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 27
+[29-Mar-2016 23:24:08 UTC] PHP Stack trace:
+[29-Mar-2016 23:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:24:08 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[29-Mar-2016 23:24:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 35
+[29-Mar-2016 23:24:08 UTC] PHP Stack trace:
+[29-Mar-2016 23:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:24:08 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:57
+[29-Mar-2016 23:24:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 27
+[29-Mar-2016 23:24:37 UTC] PHP Stack trace:
+[29-Mar-2016 23:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:24:37 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[29-Mar-2016 23:24:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 35
+[29-Mar-2016 23:24:37 UTC] PHP Stack trace:
+[29-Mar-2016 23:24:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:24:37 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:57
+[29-Mar-2016 23:25:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 27
+[29-Mar-2016 23:25:18 UTC] PHP Stack trace:
+[29-Mar-2016 23:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:25:18 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[29-Mar-2016 23:25:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 35
+[29-Mar-2016 23:25:18 UTC] PHP Stack trace:
+[29-Mar-2016 23:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:25:18 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:57
+[29-Mar-2016 23:45:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 27
+[29-Mar-2016 23:45:09 UTC] PHP Stack trace:
+[29-Mar-2016 23:45:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:45:09 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[29-Mar-2016 23:45:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 35
+[29-Mar-2016 23:45:09 UTC] PHP Stack trace:
+[29-Mar-2016 23:45:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:45:09 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:57
+[29-Mar-2016 23:47:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 31
+[29-Mar-2016 23:47:14 UTC] PHP Stack trace:
+[29-Mar-2016 23:47:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:47:14 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:53
+[29-Mar-2016 23:47:53 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in /home/ubuntu/workspace/Prova/Exercicio1.php on line 51
+[29-Mar-2016 23:47:53 UTC] PHP Stack trace:
+[29-Mar-2016 23:47:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:47:53 UTC] PHP   2. strlen() /home/ubuntu/workspace/Prova/Exercicio1.php:51
+[29-Mar-2016 23:56:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 27
+[29-Mar-2016 23:56:39 UTC] PHP Stack trace:
+[29-Mar-2016 23:56:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:56:39 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[29-Mar-2016 23:59:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[29-Mar-2016 23:59:50 UTC] PHP Stack trace:
+[29-Mar-2016 23:59:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[29-Mar-2016 23:59:50 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:54
+[30-Mar-2016 00:02:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:02:43 UTC] PHP Stack trace:
+[30-Mar-2016 00:02:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:02:43 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:55
+[30-Mar-2016 00:03:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:03:49 UTC] PHP Stack trace:
+[30-Mar-2016 00:03:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:03:49 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:55
+[30-Mar-2016 00:04:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:04:02 UTC] PHP Stack trace:
+[30-Mar-2016 00:04:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:04:02 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:55
+[30-Mar-2016 00:04:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:04:31 UTC] PHP Stack trace:
+[30-Mar-2016 00:04:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:04:31 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:55
+[30-Mar-2016 00:06:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:06:07 UTC] PHP Stack trace:
+[30-Mar-2016 00:06:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:06:07 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:55
+[30-Mar-2016 00:07:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:07:38 UTC] PHP Stack trace:
+[30-Mar-2016 00:07:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:07:38 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 00:07:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:07:58 UTC] PHP Stack trace:
+[30-Mar-2016 00:07:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:07:58 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 00:08:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:08:44 UTC] PHP Stack trace:
+[30-Mar-2016 00:08:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:08:44 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 00:09:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:09:02 UTC] PHP Stack trace:
+[30-Mar-2016 00:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:09:02 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:50
+[30-Mar-2016 00:09:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:09:05 UTC] PHP Stack trace:
+[30-Mar-2016 00:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:09:05 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:50
+[30-Mar-2016 00:10:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:10:13 UTC] PHP Stack trace:
+[30-Mar-2016 00:10:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:10:13 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:50
+[30-Mar-2016 00:10:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:10:13 UTC] PHP Stack trace:
+[30-Mar-2016 00:10:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:10:13 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:50
+[30-Mar-2016 00:10:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:10:13 UTC] PHP Stack trace:
+[30-Mar-2016 00:10:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:10:13 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:50
+[30-Mar-2016 00:10:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 26
+[30-Mar-2016 00:10:39 UTC] PHP Stack trace:
+[30-Mar-2016 00:10:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:10:39 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:57
+[30-Mar-2016 00:11:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 26
+[30-Mar-2016 00:11:03 UTC] PHP Stack trace:
+[30-Mar-2016 00:11:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:11:03 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:57
+[30-Mar-2016 00:22:07 UTC] PHP Catchable fatal error:  Argument 1 passed to Estante::mostralivros() must be an instance of Livro, array given, called in /home/ubuntu/workspace/Prova/Exercicio1.php on line 55 and defined in /home/ubuntu/workspace/Prova/Exercicio1.php on line 24
+[30-Mar-2016 00:22:07 UTC] PHP Stack trace:
+[30-Mar-2016 00:22:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:22:07 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:55
+[30-Mar-2016 00:26:43 UTC] PHP Catchable fatal error:  Argument 1 passed to Estante::mostralivros() must be an instance of Livro, array given, called in /home/ubuntu/workspace/Prova/Exercicio1.php on line 55 and defined in /home/ubuntu/workspace/Prova/Exercicio1.php on line 24
+[30-Mar-2016 00:26:43 UTC] PHP Stack trace:
+[30-Mar-2016 00:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:26:43 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:55
+[30-Mar-2016 00:27:20 UTC] PHP Catchable fatal error:  Argument 1 passed to Estante::mostralivros() must be an instance of Livro, array given, called in /home/ubuntu/workspace/Prova/Exercicio1.php on line 55 and defined in /home/ubuntu/workspace/Prova/Exercicio1.php on line 24
+[30-Mar-2016 00:27:20 UTC] PHP Stack trace:
+[30-Mar-2016 00:27:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:27:20 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:55
+[30-Mar-2016 00:28:32 UTC] PHP Warning:  Missing argument 1 for Estante::mostralivrosdispoviveis(), called in /home/ubuntu/workspace/Prova/Exercicio1.php on line 56 and defined in /home/ubuntu/workspace/Prova/Exercicio1.php on line 32
+[30-Mar-2016 00:28:32 UTC] PHP Stack trace:
+[30-Mar-2016 00:28:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:28:32 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 00:28:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 33
+[30-Mar-2016 00:28:32 UTC] PHP Stack trace:
+[30-Mar-2016 00:28:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:28:32 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 00:29:03 UTC] PHP Warning:  Missing argument 1 for Estante::mostralivrosdispoviveis(), called in /home/ubuntu/workspace/Prova/Exercicio1.php on line 56 and defined in /home/ubuntu/workspace/Prova/Exercicio1.php on line 32
+[30-Mar-2016 00:29:03 UTC] PHP Stack trace:
+[30-Mar-2016 00:29:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:29:03 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 00:29:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 33
+[30-Mar-2016 00:29:03 UTC] PHP Stack trace:
+[30-Mar-2016 00:29:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:29:03 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 00:29:26 UTC] PHP Warning:  Missing argument 1 for Estante::mostralivrosdispoviveis(), called in /home/ubuntu/workspace/Prova/Exercicio1.php on line 56 and defined in /home/ubuntu/workspace/Prova/Exercicio1.php on line 32
+[30-Mar-2016 00:29:26 UTC] PHP Stack trace:
+[30-Mar-2016 00:29:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:29:26 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 00:29:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 33
+[30-Mar-2016 00:29:26 UTC] PHP Stack trace:
+[30-Mar-2016 00:29:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:29:26 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 00:38:37 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:38:37 UTC] PHP Stack trace:
+[30-Mar-2016 00:38:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:38:37 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 00:38:52 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 00:38:52 UTC] PHP Stack trace:
+[30-Mar-2016 00:38:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 00:38:52 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:56
+[30-Mar-2016 01:20:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 30
+[30-Mar-2016 01:20:56 UTC] PHP Stack trace:
+[30-Mar-2016 01:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:20:56 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:60
+[30-Mar-2016 01:20:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 38
+[30-Mar-2016 01:20:56 UTC] PHP Stack trace:
+[30-Mar-2016 01:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:20:56 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:61
+[30-Mar-2016 01:21:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 30
+[30-Mar-2016 01:21:15 UTC] PHP Stack trace:
+[30-Mar-2016 01:21:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:21:15 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:60
+[30-Mar-2016 01:21:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 38
+[30-Mar-2016 01:21:15 UTC] PHP Stack trace:
+[30-Mar-2016 01:21:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:21:15 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:61
+[30-Mar-2016 01:24:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 30
+[30-Mar-2016 01:24:17 UTC] PHP Stack trace:
+[30-Mar-2016 01:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:24:17 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:60
+[30-Mar-2016 01:24:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 38
+[30-Mar-2016 01:24:17 UTC] PHP Stack trace:
+[30-Mar-2016 01:24:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:24:17 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:61
+[30-Mar-2016 01:24:42 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/Prova/Exercicio1.php on line 22
+[30-Mar-2016 01:25:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 31
+[30-Mar-2016 01:25:09 UTC] PHP Stack trace:
+[30-Mar-2016 01:25:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:25:09 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:61
+[30-Mar-2016 01:25:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 39
+[30-Mar-2016 01:25:09 UTC] PHP Stack trace:
+[30-Mar-2016 01:25:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:25:09 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:62
+[30-Mar-2016 01:26:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 31
+[30-Mar-2016 01:26:05 UTC] PHP Stack trace:
+[30-Mar-2016 01:26:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:26:05 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:61
+[30-Mar-2016 01:26:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 39
+[30-Mar-2016 01:26:05 UTC] PHP Stack trace:
+[30-Mar-2016 01:26:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:26:05 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:62
+[30-Mar-2016 01:26:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 31
+[30-Mar-2016 01:26:16 UTC] PHP Stack trace:
+[30-Mar-2016 01:26:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:26:16 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:61
+[30-Mar-2016 01:26:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/Prova/Exercicio1.php on line 39
+[30-Mar-2016 01:26:16 UTC] PHP Stack trace:
+[30-Mar-2016 01:26:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 01:26:16 UTC] PHP   2. Estante->mostralivrosdispoviveis() /home/ubuntu/workspace/Prova/Exercicio1.php:62
+[30-Mar-2016 16:54:01 UTC] PHP Fatal error:  Cannot access private property Livro::$nome in /home/ubuntu/workspace/Prova/Exercicio1.php on line 32
+[30-Mar-2016 16:54:01 UTC] PHP Stack trace:
+[30-Mar-2016 16:54:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 16:54:01 UTC] PHP   2. Estante->mostralivros() /home/ubuntu/workspace/Prova/Exercicio1.php:61
+[30-Mar-2016 17:03:22 UTC] PHP Catchable fatal error:  Argument 1 passed to Estante::__construct() must be an instance of Livro, array given, called in /home/ubuntu/workspace/Prova/Exercicio1.php on line 60 and defined in /home/ubuntu/workspace/Prova/Exercicio1.php on line 25
+[30-Mar-2016 17:03:22 UTC] PHP Stack trace:
+[30-Mar-2016 17:03:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Prova/Exercicio1.php:0
+[30-Mar-2016 17:03:22 UTC] PHP   2. Estante->__construct() /home/ubuntu/workspace/Prova/Exercicio1.php:60
+[30-Mar-2016 17:46:26 UTC] PHP Fatal error:  Class Black contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CartaoCredito::informacoes) in /home/ubuntu/workspace/Prova/Exercicio3.php on line 58
+[30-Mar-2016 17:47:17 UTC] PHP Fatal error:  Class Black contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CartaoCredito::informacoes) in /home/ubuntu/workspace/Prova/Exercicio3.php on line 58
+[30-Mar-2016 18:42:43 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:42:43 UTC] PHP Stack trace:
+[30-Mar-2016 18:42:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:43:25 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:43:25 UTC] PHP Stack trace:
+[30-Mar-2016 18:43:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:43:30 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:43:30 UTC] PHP Stack trace:
+[30-Mar-2016 18:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:43:32 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:43:32 UTC] PHP Stack trace:
+[30-Mar-2016 18:43:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:44:08 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:44:08 UTC] PHP Stack trace:
+[30-Mar-2016 18:44:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:44:15 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:44:15 UTC] PHP Stack trace:
+[30-Mar-2016 18:44:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:44:45 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:44:45 UTC] PHP Stack trace:
+[30-Mar-2016 18:44:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:50:24 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:50:24 UTC] PHP Stack trace:
+[30-Mar-2016 18:50:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:50:56 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:50:56 UTC] PHP Stack trace:
+[30-Mar-2016 18:50:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:51:01 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:51:01 UTC] PHP Stack trace:
+[30-Mar-2016 18:51:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:52:14 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 32
+[30-Mar-2016 18:52:14 UTC] PHP Stack trace:
+[30-Mar-2016 18:52:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:52:16 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 32
+[30-Mar-2016 18:52:16 UTC] PHP Stack trace:
+[30-Mar-2016 18:52:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:52:40 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 37
+[30-Mar-2016 18:52:40 UTC] PHP Stack trace:
+[30-Mar-2016 18:52:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:53:54 UTC] PHP Fatal error:  Class Grupo contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 36
+[30-Mar-2016 18:53:54 UTC] PHP Stack trace:
+[30-Mar-2016 18:53:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[30-Mar-2016 18:54:53 UTC] PHP Fatal error:  Class Comum contains 3 abstract methods and must therefore be declared abstract or implement the remaining methods (Usuario::adicionar, Usuario::modificar, Usuario::deletar) in /home/ubuntu/workspace/Simulado-p1/Exercicio4.php on line 47
+[30-Mar-2016 18:54:53 UTC] PHP Stack trace:
+[30-Mar-2016 18:54:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Simulado-p1/Exercicio4.php:0
+[07-Apr-2016 00:00:26 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_assoc() in /home/ubuntu/workspace/Testes/index.php on line 24
+[07-Apr-2016 00:00:26 UTC] PHP Stack trace:
+[07-Apr-2016 00:00:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Testes/index.php:0
+[07-Apr-2016 22:09:32 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/ubuntu/workspace/Testes/action.php on line 10
+[07-Apr-2016 22:09:32 UTC] PHP Stack trace:
+[07-Apr-2016 22:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Testes/action.php:0
+[08-Apr-2016 23:47:06 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/Testes/action.php on line 13
+[08-Apr-2016 23:47:06 UTC] PHP Stack trace:
+[08-Apr-2016 23:47:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Testes/action.php:0
+[08-Apr-2016 23:48:53 UTC] PHP Warning:  mysqli_result::fetch_assoc() expects exactly 0 parameters, 1 given in /home/ubuntu/workspace/Testes/action.php on line 13
+[08-Apr-2016 23:48:53 UTC] PHP Stack trace:
+[08-Apr-2016 23:48:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Testes/action.php:0
+[08-Apr-2016 23:48:53 UTC] PHP   2. mysqli_result->fetch_assoc() /home/ubuntu/workspace/Testes/action.php:13
+[08-Apr-2016 23:51:46 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/Testes/action.php on line 13
+[08-Apr-2016 23:51:46 UTC] PHP Stack trace:
+[08-Apr-2016 23:51:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Testes/action.php:0
+[08-Apr-2016 23:52:09 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/Testes/action.php on line 13
+[08-Apr-2016 23:52:09 UTC] PHP Stack trace:
+[08-Apr-2016 23:52:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Testes/action.php:0
+[08-Apr-2016 23:56:50 UTC] PHP Fatal error:  Can't use method return value in write context in /home/ubuntu/workspace/Testes/action.php on line 10
+[08-Apr-2016 23:57:17 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_assoc() in /home/ubuntu/workspace/Testes/action.php on line 10
+[08-Apr-2016 23:57:17 UTC] PHP Stack trace:
+[08-Apr-2016 23:57:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Testes/action.php:0
+[08-Apr-2016 23:57:37 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/Testes/action.php on line 11
+[08-Apr-2016 23:57:37 UTC] PHP Stack trace:
+[08-Apr-2016 23:57:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Testes/action.php:0
+[08-Apr-2016 23:57:43 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/Testes/action.php on line 11
+[08-Apr-2016 23:57:43 UTC] PHP Stack trace:
+[08-Apr-2016 23:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Testes/action.php:0
