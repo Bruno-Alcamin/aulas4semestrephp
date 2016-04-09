@@ -6,7 +6,8 @@ function excluir(x){
             data:{
                 cod: x
             }
-        }); 
-        location.reload();              
+        });
+        $('.coment').load('listar.php');
+        //location.reload();              
     }
 }
