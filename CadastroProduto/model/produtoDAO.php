@@ -2,7 +2,7 @@
 
 class ProdutoDAO{
     public function insert(Produto $p){
-        $mysqli = new mysqli("127.0.0.1", "bruno_alcamin", "", "Teste");
+        
         if ($mysqli->connect_errno) {
             echo "Falha no MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
         }
@@ -21,7 +21,7 @@ class ProdutoDAO{
     }
     
     public function getProduct(){
-        $mysqli = new mysqli("127.0.0.1", "bruno_alcamin", "", "Teste");
+        
         $stmt = $mysqli->query("SELECT * FROM Produto");
         //$dados = [];
         $prod = [];
@@ -34,14 +34,14 @@ class ProdutoDAO{
     }
     
     public function deletar($x){
-        $mysqli = new mysqli("127.0.0.1", "bruno_alcamin", "", "Teste");
+        
         $stmt = $mysqli->prepare("DELETE FROM Produto where cd_Produto = ?");
         $stmt->bind_param("i",$x);
         $stmt->execute();
     }
     
     public function alter(Produto $p){
-        $mysqli = new mysqli("127.0.0.1", "bruno_alcamin", "", "Teste");
+        
         if ($mysqli->connect_errno) {
             echo "Falha no MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
         }
