@@ -1,2 +1,5 @@
 RewriteEngine On
 RewriteRule ^/?teste/([a-zA-Z]+)$&?$&?$ Aula7/aula7.php?param=$1&id=$2&id=$3 [L,QSA]
+RewriteRule ^/?([a-zA-Z_]+)/([a-zA-Z_]+)/([0-9]+)$ CadastroProduto/web.php?metodo=$1&arg1=$2&arg2=$3 [L]
+RewriteRule ^/?([a-zA-Z_]+)/([0-9]+)$ CadastroProduto/web.php?metodo=$1&arg1=$2 [L]
+RewriteRule ^/?([a-zA-Z_]+)$ CadastroProduto/web.php?metodo=$1 [L]

@@ -1,0 +1,85 @@
+div#itsthetable {
+}
+
+caption {
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	display: none;
+	font: normal normal bold 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px
+}
+
+html>body caption {
+	display: block
+}
+
+thead tr th, tr thead td {
+	text-align: center;
+	border-bottom: 1px solid #CCC;
+	font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 30px;
+	padding: 5px;
+	vertical-align: top
+}
+
+
+tbody tr th, tbody tr td {
+	padding: 5px;
+	font: normal normal normal 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 30px;
+	text-align: left;
+	vertical-align: top
+}
+
+tbody tr th, tbody tr td, tbody tr th, thead tr th{
+	width: 230px;
+}
+
+tbody tr:hover th, tbody tr:hover td, tbody tr.odd:hover th, tbody tr.odd:hover td {
+    background-color: #bbc ;
+	color: #FFF;
+	display: table-cell;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top
+	
+}
+
+
+
+tbody a:hover {
+	color: #009;
+	text-decoration: underline
+}
+
+tbody tr:hover th a, tbody tr:hover td a, tbody tr.odd:hover th a, tbody tr.odd:hover td a {
+	color: #FFF;
+	text-decoration: none
+}
+
+tbody tr:hover th a:hover, tbody tr:hover td a:hover, tbody tr.odd:hover th a:hover, tbody tr.odd:hover td a:hover {
+	color: #FFF;
+	text-decoration: underline
+}
+
+
+
+
+
+ 
+html>body thead {
+	display: block
+}
+
+html>body tfoot {
+	display: block;
+
+	top: 620px
+}
+
+html>body tbody {
+	display: block;
+
+	
+}
+

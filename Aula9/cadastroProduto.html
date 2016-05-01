@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="CadastroProduto.js"></script>
+    </head>
+    <body onload="listar()">
+        <form id="form-mgs" action="" method="POST">
+            <label>nome
+            <input type="text" name="nome"/>
+            </label>
+            <label>Valor
+            <input type="number" name="valor"/>
+            </label>
+            <input type="submit" value="Novo"/>
+        </form>
+        <h2></h2>
+        <div class="coment">
+            <table id="t1">
+                <caption>Cadastro de Produtos</caption>
+                <thead>
+                    <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

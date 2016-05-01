@@ -1,7 +1,7 @@
 function listar(){
     $.ajax({
         type: 'POST',
-        url: 'listar.php'
+        url: 'models/listar.php'
     }).done(function(e){
         $('.coment').append(e);
     });

@@ -3,7 +3,7 @@ function main(){
     $('#form-mgs').submit(function(){
     $.ajax({
         type: 'POST',
-        url: 'insert.php',
+        url: 'models/insert.php',
         data:{
             nome: $('input[name="nome"]').val()    
         }
