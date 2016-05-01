@@ -36,6 +36,11 @@ class GeneralResourceOPTIONS extends GeneralResource{
         http_response_code(200); 
     }
     
+    public function listaProduto(){
+        header('allow: GET, OPTIONS');
+        http_response_code(200); 
+    }
+    
     public function deletarProduto(){
         header('allow: DELETE, OPTIONS');
         http_response_code(200);
